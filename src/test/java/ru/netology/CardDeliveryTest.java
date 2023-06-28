@@ -41,7 +41,6 @@ public class CardDeliveryTest {
         return dateFormat.format(meetingDate.getTime());
     }
 
-    //выбор кликом дня в виджете календаря
     public void selectMeetingDate(Calendar date) {
         long meetingDateMax = date.getTimeInMillis();
         long meetingDateMin = meetingDateMax - 86_400_000;
